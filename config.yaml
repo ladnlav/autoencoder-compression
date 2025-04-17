@@ -1,0 +1,24 @@
+# config.yaml
+
+# Параметры данных
+data_dir: "data"        # Куда скачивать/где искать MNIST
+batch_size: 128           # Размер батча для обучения и оценки
+
+# Параметры модели
+# Замечание: Для MNIST (28x28=784 пикселя)
+latent_dim_lossy: 8      # Пример размерности для сжатия с потерями (< 784)
+latent_dim_lossless: 784  # Размерность для "lossless" реконструкции (>= 784)
+input_channels: 1         # MNIST - черно-белые изображения
+
+# Параметры обучения
+learning_rate: 0.001
+num_epochs: 50            # Количество эпох обучения
+device: "auto"            # 'auto' определит cuda/mps/cpu автоматически
+
+# Пути для сохранения
+model_save_dir: "models"
+results_save_dir: "reports/figures"
+
+# Параметры запуска (можно будет использовать argparse в скриптах)
+model_type: "lossless"       # 'lossy' или 'lossless' - какой тип модели обучать/оценивать
+mode: "train"             # 'train' или 'evaluate'
