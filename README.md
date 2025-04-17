@@ -165,12 +165,12 @@ autoencoder-compression/
 
 График зависимости MSE (все модели) и коэффициента сжатия (только lossy) от `latent_dim`:
 
-![Влияние Latent Dim](reports/MSE vs latent dim vs Compcoef.png)
+![Влияние Latent Dim](reports/figures/latent_dim_vs_metrics.png)
 
 
 ### Визуальное Сравнение Реконструкций (Lossless ld=784, Lossy ld=64)
 
-![Сравнение реконструкций](C:\Users\Владислав\Desktop\Семантическое кодирование\3\autoencoder-compression\README.assets\reconstructions_comparison-1744929530718-8.png)
+![Сравнение реконструкций](reports/figures/reconstructions_comparison.png)
 
 ### Визуализация Латентного Пространства (Примеры)
 
@@ -179,16 +179,16 @@ autoencoder-compression/
 **Модель Lossy ld=8:**
 
 *   **t-SNE Scatter Plot:**
-    ![t-SNE Scatter Plot ld=8](C:\Users\Владислав\Desktop\Семантическое кодирование\3\autoencoder-compression\README.assets\latent_space_scatter_tsne-1744929530718-7.png)
+    ![t-SNE Scatter Plot ld=8](reports/figures/lossy_ld8/latent_space_scatter_tsne.png)
 *   **t-SNE Manifold:**
-    ![t-SNE Manifold ld=8](C:\Users\Владислав\Desktop\Семантическое кодирование\3\autoencoder-compression\README.assets\latent_manifold_tsne-1744929530718-6.png)
+    ![t-SNE Manifold ld=8](reports/figures/lossy_ld8/latent_manifold_tsne.png)
 
 **Модель Lossy ld=64:**
 
 *   **t-SNE Scatter Plot:**
-    ![t-SNE Scatter Plot ld=64](C:\Users\Владислав\Desktop\Семантическое кодирование\3\autoencoder-compression\README.assets\latent_space_scatter_tsne-1744929530710-4.png)
+    ![t-SNE Scatter Plot ld=64](reports/figures/lossy_ld64/latent_space_scatter_tsne.png)
 *   **t-SNE Manifold:**
-    ![t-SNE Manifold ld=64](C:\Users\Владислав\Desktop\Семантическое кодирование\3\autoencoder-compression\README.assets\latent_manifold_tsne-1744929530711-5.png)
+    ![t-SNE Manifold ld=64](reports/figures/lossy_ld64/latent_manifold_tsne.png)
 
 ## Обсуждение и Выводы
 
