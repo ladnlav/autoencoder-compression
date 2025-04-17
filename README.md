@@ -165,7 +165,7 @@ autoencoder-compression/
 
 График зависимости MSE (все модели) и коэффициента сжатия (только lossy) от `latent_dim`:
 
-![Влияние Latent Dim]('reports/MSE vs latent dim vs Compcoef.png')
+![Влияние Latent Dim](reports/latent_dim_vs_metrics.png)
 
 
 ### Визуальное Сравнение Реконструкций (Lossless ld=784, Lossy ld=64)
